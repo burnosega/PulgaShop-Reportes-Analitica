@@ -32,4 +32,14 @@
 - Control de acceso implementado  
 - Visualización restringida por rol  
 - Registro de intentos no autorizados  
-- Gestión dinámica de roles asegurada  
+- Gestión dinámica de roles asegurada
+
+---
+
+**Política de seguridad / Autorización**
+- Control de acceso basado en roles (admin, supervisor, usuario estándar).  
+- Registro de intentos no autorizados para auditoría.  
+- Gestión dinámica de roles con aplicación inmediata de cambios.
+
+**Tamaño:** S  
+**Riesgo:** Alto (gestion de roles y cuidado con permisos de usuario) 
