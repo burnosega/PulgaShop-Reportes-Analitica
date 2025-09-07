@@ -27,3 +27,13 @@
 - Se implementa el registro de búsquedas en la base de datos  
 - Los reportes permiten filtrar por producto y por periodos de tiempo  
 - El sistema genera un dashboard con gráficos o tablas comparativas de tendencias  
+
+---
+
+**Política de seguridad / Autorización**
+- Solo analistas de datos o roles autorizados pueden acceder a métricas de comportamiento.  
+- Los reportes muestran únicamente información que el rol tiene permiso de consultar.  
+- Intentos de acceso no autorizado se registran en un log de seguridad.
+
+**Tamaño:** L  
+**Riesgo:** Medio (los analisis de metricas y dashboard comparativo requiere calculos y visualizacion de datos)
