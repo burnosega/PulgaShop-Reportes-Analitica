@@ -29,5 +29,7 @@
 - Visualización de datos sensibles limitada según permisos del usuario.  
 - Modificaciones de interfaz (p.ej., dashboards) controladas por roles de edición autorizados.
 
+---
+
 **Tamaño:** M  
 **Riesgo:** Medio (la claridad del sistema es importante)
