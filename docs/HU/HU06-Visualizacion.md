@@ -16,3 +16,15 @@
 ## Definition of Done
 - Datos reflejan información comprobada  
 - Los datos se reflejan en menos de 5 minutos
+
+---
+
+**Política de seguridad / Autorización**
+- Solo gerentes de ventas o roles autorizados pueden acceder al dashboard.  
+- Los gráficos y tablas muestran únicamente datos que el rol tiene derecho a consultar.  
+- Intentos de acceso no autorizados se registran en logs de seguridad.
+
+---
+
+**Tamaño:** L  
+**Riesgo:** Alto
