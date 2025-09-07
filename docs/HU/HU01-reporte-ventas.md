@@ -30,5 +30,12 @@
 
 ---
 
+**Política de seguridad / Autorización**
+- Solo administradores o roles autorizados pueden acceder al módulo de reportes de ventas.  
+- Los filtros y visualizaciones se aplican únicamente a los datos permitidos según el rol.  
+- Intentos de acceso no autorizado se registran para auditoría.
+
+---
+
 **Tamaño:** M  
-**Riesgo:** Alto
+**Riesgo:** Alto (depende de integracion de Base de Datos y filtros) 
