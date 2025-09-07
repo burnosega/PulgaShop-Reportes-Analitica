@@ -27,3 +27,8 @@
 - El módulo permite generar reportes con columnas básicas (fecha, producto, cantidad, precio, total)  
 - Los filtros de fechas y productos funcionan correctamente  
 - Los datos se muestran de manera clara y exportable (CSV o PDF)
+
+---
+
+**Tamaño:** M  
+**Riesgo:** Alto
