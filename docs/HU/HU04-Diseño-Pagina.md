@@ -21,3 +21,13 @@
 ## Definition of Done
 - Se implementa una interfaz gráfica intuitiva y clara  
 - La visualización de métricas con gráficos y tablas legibles desde distintos dispositivos  
+
+---
+
+**Política de seguridad / Autorización**
+- Acceso a la interfaz de análisis solo para usuarios autorizados según rol.  
+- Visualización de datos sensibles limitada según permisos del usuario.  
+- Modificaciones de interfaz (p.ej., dashboards) controladas por roles de edición autorizados.
+
+**Tamaño:** M  
+**Riesgo:** Medio (la claridad del sistema es importante)
