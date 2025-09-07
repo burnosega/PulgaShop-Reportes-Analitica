@@ -36,6 +36,8 @@
 - Información sensible sobre errores o tiempos de respuesta restringida según rol.  
 - Intentos de consulta sin permisos se registran para auditoría.
 
+---
+
 **Tamaño:** M  
 **Riesgo:** Medio (requiere un backend estable para la recoleccion de  metrica)
   
