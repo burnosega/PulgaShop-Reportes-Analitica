@@ -28,3 +28,14 @@
 - Monitoreo de tiempos de respuesta  
 - Registro de errores y fallos  
 - Visualización de métricas  
+
+---
+
+**Política de seguridad / Autorización**
+- Solo técnicos o administradores pueden acceder a métricas de uso del microservicio.  
+- Información sensible sobre errores o tiempos de respuesta restringida según rol.  
+- Intentos de consulta sin permisos se registran para auditoría.
+
+**Tamaño:** M  
+**Riesgo:** Medio (requiere un backend estable para la recoleccion de  metrica)
+  
