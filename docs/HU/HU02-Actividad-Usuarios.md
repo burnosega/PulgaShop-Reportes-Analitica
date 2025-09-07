@@ -35,5 +35,7 @@
 - Los reportes muestran únicamente información que el rol tiene permiso de consultar.  
 - Intentos de acceso no autorizado se registran en un log de seguridad.
 
+---
+
 **Tamaño:** L  
 **Riesgo:** Medio (los analisis de metricas y dashboard comparativo requiere calculos y visualizacion de datos)
