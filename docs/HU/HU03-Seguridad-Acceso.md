@@ -25,3 +25,11 @@
 - **Dado que** el administrador necesita modificar los permisos de un rol  
 - **Cuando** actualiza la configuración de roles en el sistema  
 - **Entonces** los cambios se aplican inmediatamente y afectan el acceso de los usuarios en su siguiente inicio de sesión
+
+---
+
+## Definition of Done
+- Control de acceso implementado  
+- Visualización restringida por rol  
+- Registro de intentos no autorizados  
+- Gestión dinámica de roles asegurada  
