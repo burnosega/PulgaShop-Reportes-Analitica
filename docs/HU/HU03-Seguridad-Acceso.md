@@ -41,5 +41,7 @@
 - Registro de intentos no autorizados para auditoría.  
 - Gestión dinámica de roles con aplicación inmediata de cambios.
 
+---
+
 **Tamaño:** S  
 **Riesgo:** Alto (gestion de roles y cuidado con permisos de usuario) 
