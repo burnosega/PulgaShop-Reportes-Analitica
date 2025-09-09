@@ -6,7 +6,7 @@
 | id_usuario | INT         | 11    | NOT NULL | PK    | Identificador único del usuario     |
 | correo     | VARCHAR     | 100   | NOT NULL |       | Correo electrónico del usuario      |
 | contraseña | VARCHAR     | 150   | NOT NULL |       | Contraseña encriptada               |
-| creado     | VARCHAR     | 255   | NOT NULL |       | Fecha de creación                   |
+| creado     | DATE     | -  | NOT NULL |       | Fecha de creación                   |
 | rol        | ENUM        | 100   | NOT NULL |       | admin, ...                          |
 | id_metrica | INT         | 11    | NOT NULL | FK    | Identificador único de la métrica  |
 
