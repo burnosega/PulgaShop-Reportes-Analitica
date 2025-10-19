@@ -1,7 +1,7 @@
 import { Avatar, Box, Drawer, Typography } from "@mui/material";
-import logo from "../../../assets/EII_logo.png";
 import { JSX } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
+import logo from "../../../assets/Sin_titulo.jpg";
 
 interface DrawerNavProps {
   closeMenuAction: () => void;
@@ -29,10 +29,10 @@ function DrawerNav({ closeMenuAction, openMenu, menuItems }: DrawerNavProps) {
                   JD
                 </Avatar>
                 <div className="ml-4">
-                  <h4 className="text-md font-medium text-(--color-blue)">
+                  <h4 className="text-md font-medium text-(--color-green)">
                     John Doe
                   </h4>
-                  <p className="text-sm font-light text-(--color-blue">Admin</p>
+                  <p className="text-sm font-light text-(--color-blue">Ad</p>
                 </div>
               </div>
             </div>

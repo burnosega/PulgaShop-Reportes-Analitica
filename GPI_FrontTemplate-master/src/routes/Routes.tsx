@@ -24,6 +24,14 @@ const ResetPass = Loadable(
   lazy(() => import("../views/authentication/ResetPass"))
 );
 
+// Estas rutas coinciden con tu imagen
+const Analitica = Loadable(
+  lazy(() => import("../views/analitica/analitica"))
+);
+const ReporteVentas = Loadable(
+  lazy(() => import("../views/reporte/reporte"))
+);
+
 /* ****End Pages***** */
 
 const Router = [
@@ -36,21 +44,12 @@ const Router = [
     path: "/auth",
     element: <AuthLayout />,
     children: [
-      { path: "", exact: true, element: <Navigate to="/auth/login" /> },
-      { path: "login", exact: true, element: <Login /> },
-      {
-        path: "register",
-        exact: true,
-        element: <Register />,
-      },
-      {
-        path: "forgot-password",
-        exact: true,
-        element: <ResetPass />,
-      },
-
+      { path: "", element: <Navigate to="/auth/login" /> },
+      { path: "login", element: <Login /> },
+      { path: "register", element: <Register /> },
+      { path: "forgot-password", element: <ResetPass /> },
       { path: "*", element: <Navigate to="/error/404" /> },
-      { path: "404", exact: true, element: <Error /> },
+      { path: "404", element: <Error /> },
     ],
   },
   {
@@ -59,23 +58,25 @@ const Router = [
     children: [
       {
         path: "",
-        exact: true,
         element: <Home />,
       },
       {
         path: "home",
-        exact: true,
         element: <Home />,
       },
+      {
+        path: "analitica",
+        element: <Analitica />,
+      },
+      {
+        path: "reporte", // El nombre de tu archivo es 'reporte.tsx'
+        element: <ReporteVentas />,
+      },
+      {
+        path: "analisis", // Redirección
+        element: <Navigate to="/analitica" />,
+      },
       { path: "*", element: <Navigate to="/error/404" /> },
-    ],
-  },
-  {
-    path: "/error",
-    element: <BlankLayout />,
-    children: [
-      { path: "*", element: <Navigate to="/error/404" /> },
-      { path: "404", exact: true, element: <Error /> },
     ],
   },
 ];

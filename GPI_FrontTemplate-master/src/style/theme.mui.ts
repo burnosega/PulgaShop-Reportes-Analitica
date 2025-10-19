@@ -27,11 +27,14 @@ const theme = createTheme({
     },
     // Cambiando la paleta secundaria
     secondary: {
-      main: "#1f4d5d",
+      main: "#A3B899",
       light: "#327d96",
       dark: "#0c1f25",
       contrastText: "#ffffff",
     },
+    background: {
+    default: '#F0F2EE' // Un verde muy claro casi blanco
+  }
     // Si deseas redefinir "error", "warning", "info", "success" etc., puedes hacerlo igualmente:
     // error: { main: '#...' },
     // warning: { main: '#...' },

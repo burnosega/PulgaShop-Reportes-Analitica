@@ -3,7 +3,7 @@
  */
 
 import { Avatar, Box, Typography } from "@mui/material";
-import logo from "../../../assets/EII_logo.png";
+import logo from "../../../assets/Sin_titulo.jpg";
 import DrawerNav from "./DrawerNav";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
@@ -23,11 +23,10 @@ interface HeaderGPIProps {
  *
  * @version 1.0.0
  * */
-
 function HeaderGPI({ isMobile = false }: HeaderGPIProps) {
   const actionsMenu = [
     {
-      name: "Item 1",
+      name: "Home",
       href: "/", // Path to navigate
       icon: (
         <svg
@@ -47,7 +46,7 @@ function HeaderGPI({ isMobile = false }: HeaderGPIProps) {
       ), // Icon heroicons
     },
     {
-      name: "Item 2",
+      name: "analitica",
       href: "/", // Path to navigate
       icon: (
         <svg
@@ -67,7 +66,7 @@ function HeaderGPI({ isMobile = false }: HeaderGPIProps) {
       ), // Icon
     },
     {
-      name: "Item 3",
+      name: "reporte",
       href: "/", // Path to navigate
       icon: (
         <svg
@@ -87,7 +86,7 @@ function HeaderGPI({ isMobile = false }: HeaderGPIProps) {
       ), // Icon
     },
     {
-      name: "Item 4",
+     name: "perfil",
       href: "/", // Path to navigate
       icon: (
         <svg
@@ -160,7 +159,7 @@ function HeaderGPI({ isMobile = false }: HeaderGPIProps) {
           ></DrawerNav>
         </nav>
       ) : (
-        <nav className="flex flex-col bg-(--color-darkgreen) w-80 h-full overflow-auto">
+        <nav className="flex flex-col bg-(--color-darkgreen) w-60 h-full overflow-auto">
           <div className="flex flex-col justify-between p-4 h-full">
             <div className="flex flex-col items-center pt-10 justify-center gap-2">
               <Box
@@ -168,7 +167,7 @@ function HeaderGPI({ isMobile = false }: HeaderGPIProps) {
                 gap="16px"
                 className="flex flex-col justify-center items-center"
               >
-                <img alt="logo" className="h-30 invert" src={logo} />
+                <img alt="logo" className="h-30 " src={logo}  />
                 <Typography
                   fontSize={22}
                   lineHeight={"32px"}
@@ -176,7 +175,7 @@ function HeaderGPI({ isMobile = false }: HeaderGPIProps) {
                   fontWeight={600}
                   color="#ebebeb"
                 >
-                  GPI project
+                  Pulga Shop
                 </Typography>
               </Box>
               <Box className="flex flex-col pt-16 p-6 gap-6 w-full">
@@ -184,7 +183,7 @@ function HeaderGPI({ isMobile = false }: HeaderGPIProps) {
                   <div
                     key={index}
                     onClick={() => redirectTo(item.href)}
-                    className="group flex items-center gap-4 p-3 border-2 rounded-lg border-transparent hover:border-[#FFFFFF] hover:border-opacity-100 cursor-pointer"
+                    className="group flex items-center gap-4 p-3 border-2 rounded-lg border-transparent hover:border-[#ff0000] hover:border-opacity-100 cursor-pointer"
                   >
                     <div className="text-white group-hover:text-[#FFFFFF]">
                       {item.icon}
@@ -193,7 +192,7 @@ function HeaderGPI({ isMobile = false }: HeaderGPIProps) {
                       fontSize={18}
                       lineHeight={"24px"}
                       fontWeight={400}
-                      className="text-[#ebebeb] group-hover:text-[#FFFFFF]"
+                      className="text-[#ebebeb] group-hover:text-[#ffffff]"
                     >
                       {item.name}
                     </Typography>
@@ -201,21 +200,24 @@ function HeaderGPI({ isMobile = false }: HeaderGPIProps) {
                 ))}
               </Box>
             </div>
-            <div className="group flex items-center justify-between border-2 rounded-lg border-transparent p-2 hover:border-white">
+            <div className="group flex items-center justify-between border-2 rounded-lg border-transparent p-2 hover:border-white"> 
               <div className="flex items-center">
                 <Avatar className="w-25 h-25 rounded-full" alt="avatar">
-                  JD
+                  BO
                 </Avatar>
                 <div className="ml-4">
                   <h4 className="text-md font-medium text-white group-hover:text-(--color-white)">
-                    John Doe
+                    
                   </h4>
                   <p className="text-sm font-light text-white group-hover:text-(--color-white)">
-                    Admin
+                    user
                   </p>
                 </div>
               </div>
-              <button className="text-white cursor-pointer group-hover:text-(--color-white)">
+              <button className="text-white cursor-pointer group-hover:text-(--color-white)"  onClick={() => {
+              navigate("/auth/login");
+            }}>
+                
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"

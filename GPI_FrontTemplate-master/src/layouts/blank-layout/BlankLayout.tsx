@@ -11,7 +11,7 @@ const BlankLayout = () => {
           right: "0px",
           left: "0px",
           bottom: "0px",
-          backgroundColor: "#F3F2F6",
+          backgroundColor: "#047857",
           borderRadius: 0,
         }}
       >

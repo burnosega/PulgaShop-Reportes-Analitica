@@ -20,11 +20,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   
-  --color-darkgreen: #002E38;
+  
+  --color-darkgreen: #A7C957;
   --color-blue: #003c58;
   --color-turquesa: #06717e;
-  --color-gris: #ebebeb;
-  --color-white-smoke: #fefefe;
+  --color-gris: #F2E8CF;
+  --color-white-smoke: #F2E8CF;
   --color-black: #1f1b1b;
 }
 
