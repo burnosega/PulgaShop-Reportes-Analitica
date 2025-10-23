@@ -1,0 +1,260 @@
+[{
+  "_id": {
+    "$oid": "68f95a19324038435f5e5bf3"
+  },
+  "id_order": 2000,
+  "id_usuario": {
+    "$numberLong": "1"
+  },
+  "id_producto": "5000",
+  "monto_total": 404990,
+  "estado": "abandonado",
+  "fecha": "2025-10-21T23:35:00Z"
+},
+{
+  "_id": {
+    "$oid": "68f95a19324038435f5e5bf4"
+  },
+  "id_order": 2001,
+  "id_usuario": {
+    "$numberLong": "2"
+  },
+  "id_producto": "5001",
+  "monto_total": 62990,
+  "estado": "abandonado",
+  "fecha": "2025-10-21T22:00:00Z"
+},
+{
+  "_id": {
+    "$oid": "68f95a19324038435f5e5bf5"
+  },
+  "id_order": 2002,
+  "id_usuario": {
+    "$numberLong": "3"
+  },
+  "id_producto": "5002",
+  "monto_total": 105980,
+  "estado": "abandonado",
+  "fecha": "2025-10-21T22:11:00Z"
+},
+{
+  "_id": {
+    "$oid": "68f95a19324038435f5e5bf6"
+  },
+  "id_order": 2003,
+  "id_usuario": {
+    "$numberLong": "4"
+  },
+  "id_producto": "5003",
+  "monto_total": 49980,
+  "estado": "completado",
+  "fecha": "2025-10-21T20:48:00Z"
+},
+{
+  "_id": {
+    "$oid": "68f95a19324038435f5e5bf7"
+  },
+  "id_order": 2004,
+  "id_usuario": {
+    "$numberLong": "5"
+  },
+  "id_producto": "5004",
+  "monto_total": 224970,
+  "estado": "cancelado",
+  "fecha": "2025-10-21T17:40:00Z"
+},
+{
+  "_id": {
+    "$oid": "68f95a19324038435f5e5bf8"
+  },
+  "id_order": 2005,
+  "id_usuario": {
+    "$numberLong": "6"
+  },
+  "id_producto": "5005",
+  "monto_total": 47980,
+  "estado": "cancelado",
+  "fecha": "2025-10-21T10:18:00Z"
+},
+{
+  "_id": {
+    "$oid": "68f95a19324038435f5e5bf9"
+  },
+  "id_order": 2006,
+  "id_usuario": {
+    "$numberLong": "7"
+  },
+  "id_producto": "5006",
+  "monto_total": 206970,
+  "estado": "completado",
+  "fecha": "2025-10-21T00:48:00Z"
+},
+{
+  "_id": {
+    "$oid": "68f95a19324038435f5e5bfa"
+  },
+  "id_order": 2007,
+  "id_usuario": {
+    "$numberLong": "8"
+  },
+  "id_producto": "5007",
+  "monto_total": 545970,
+  "estado": "cancelado",
+  "fecha": "2025-10-21T00:43:00Z"
+},
+{
+  "_id": {
+    "$oid": "68f95a19324038435f5e5bfb"
+  },
+  "id_order": 2008,
+  "id_usuario": {
+    "$numberLong": "9"
+  },
+  "id_producto": "5008",
+  "monto_total": 416990,
+  "estado": "abandonado",
+  "fecha": "2025-10-21T00:38:00Z"
+},
+{
+  "_id": {
+    "$oid": "68f95a19324038435f5e5bfc"
+  },
+  "id_order": 2009,
+  "id_usuario": {
+    "$numberLong": "10"
+  },
+  "id_producto": "5009",
+  "monto_total": 113980,
+  "estado": "cancelado",
+  "fecha": "2025-10-20T11:01:00Z"
+},
+{
+  "_id": {
+    "$oid": "68f95a19324038435f5e5bfd"
+  },
+  "id_order": 2010,
+  "id_usuario": {
+    "$numberLong": "11"
+  },
+  "id_producto": "5010",
+  "monto_total": 40990,
+  "estado": "completado",
+  "fecha": "2025-10-20T11:45:00Z"
+},
+{
+  "_id": {
+    "$oid": "68f95a19324038435f5e5bfe"
+  },
+  "id_order": 2011,
+  "id_usuario": {
+    "$numberLong": "12"
+  },
+  "id_producto": "5011",
+  "monto_total": 193990,
+  "estado": "completado",
+  "fecha": "2025-10-20T07:43:00Z"
+},
+{
+  "_id": {
+    "$oid": "68f95a19324038435f5e5bff"
+  },
+  "id_order": 2012,
+  "id_usuario": {
+    "$numberLong": "13"
+  },
+  "id_producto": "5012",
+  "monto_total": 65990,
+  "estado": "cancelado",
+  "fecha": "2025-10-20T03:45:00Z"
+},
+{
+  "_id": {
+    "$oid": "68f95a19324038435f5e5c00"
+  },
+  "id_order": 2013,
+  "id_usuario": {
+    "$numberLong": "14"
+  },
+  "id_producto": "5013",
+  "monto_total": 36990,
+  "estado": "completado",
+  "fecha": "2025-10-20T02:44:00Z"
+},
+{
+  "_id": {
+    "$oid": "68f95a19324038435f5e5c01"
+  },
+  "id_order": 2014,
+  "id_usuario": {
+    "$numberLong": "15"
+  },
+  "id_producto": "5014",
+  "monto_total": 122970,
+  "estado": "completado",
+  "fecha": "2025-10-19T05:41:00Z"
+},
+{
+  "_id": {
+    "$oid": "68f95a19324038435f5e5c02"
+  },
+  "id_order": 2015,
+  "id_usuario": {
+    "$numberLong": "16"
+  },
+  "id_producto": "5015",
+  "monto_total": 107970,
+  "estado": "abandonado",
+  "fecha": "2025-10-19T05:11:00Z"
+},
+{
+  "_id": {
+    "$oid": "68f95a19324038435f5e5c03"
+  },
+  "id_order": 2016,
+  "id_usuario": {
+    "$numberLong": "17"
+  },
+  "id_producto": "5016",
+  "monto_total": 23990,
+  "estado": "completado",
+  "fecha": "2025-10-19T04:26:00Z"
+},
+{
+  "_id": {
+    "$oid": "68f95a19324038435f5e5c04"
+  },
+  "id_order": 2017,
+  "id_usuario": {
+    "$numberLong": "18"
+  },
+  "id_producto": "5017",
+  "monto_total": 34990,
+  "estado": "completado",
+  "fecha": "2025-10-19T06:08:00Z"
+},
+{
+  "_id": {
+    "$oid": "68f95a19324038435f5e5c05"
+  },
+  "id_order": 2018,
+  "id_usuario": {
+    "$numberLong": "19"
+  },
+  "id_producto": "5018",
+  "monto_total": 77990,
+  "estado": "completado",
+  "fecha": "2025-10-19T07:03:00Z"
+},
+{
+  "_id": {
+    "$oid": "68f95a19324038435f5e5c06"
+  },
+  "id_order": 2019,
+  "id_usuario": {
+    "$numberLong": "20"
+  },
+  "id_producto": "5019",
+  "monto_total": 617980,
+  "estado": "completado",
+  "fecha": "2025-10-18T16:40:00Z"
+}]

@@ -1,0 +1,240 @@
+[{
+  "_id": {
+    "$oid": "68f95a28324038435f5e5c08"
+  },
+  "id_producto": "5000",
+  "nombre_producto": "Audífonos Bluetooth Motorola Buds 3",
+  "precio": 24990,
+  "categoria": "Electrónica",
+  "stock": 17,
+  "veces_vendido": 14,
+  "veces_buscado": 48
+},
+{
+  "_id": {
+    "$oid": "68f95a28324038435f5e5c09"
+  },
+  "id_producto": "5001",
+  "nombre_producto": "Smartwatch Xiaomi Mi Band 8",
+  "precio": 40990,
+  "categoria": "Electrónica",
+  "stock": 47,
+  "veces_vendido": 2,
+  "veces_buscado": 42
+},
+{
+  "_id": {
+    "$oid": "68f95a28324038435f5e5c0a"
+  },
+  "id_producto": "5002",
+  "nombre_producto": "Teléfono Redmi Note 12",
+  "precio": 181990,
+  "categoria": "Electrónica",
+  "stock": 73,
+  "veces_vendido": 28,
+  "veces_buscado": 40
+},
+{
+  "_id": {
+    "$oid": "68f95a28324038435f5e5c0b"
+  },
+  "id_producto": "5003",
+  "nombre_producto": "Parlante Bluetooth JBL Flip 5",
+  "precio": 62990,
+  "categoria": "Electrónica",
+  "stock": 88,
+  "veces_vendido": 12,
+  "veces_buscado": 28
+},
+{
+  "_id": {
+    "$oid": "68f95a28324038435f5e5c0c"
+  },
+  "id_producto": "5004",
+  "nombre_producto": "Pelota Adidas Fútbol Profesional",
+  "precio": 23990,
+  "categoria": "Deportivo",
+  "stock": 93,
+  "veces_vendido": 18,
+  "veces_buscado": 20
+},
+{
+  "_id": {
+    "$oid": "68f95a28324038435f5e5c0d"
+  },
+  "id_producto": "5005",
+  "nombre_producto": "Cinta de correr Reebok ZR10",
+  "precio": 404990,
+  "categoria": "Deportivo",
+  "stock": 115,
+  "veces_vendido": 48,
+  "veces_buscado": 3
+},
+{
+  "_id": {
+    "$oid": "68f95a28324038435f5e5c0e"
+  },
+  "id_producto": "5006",
+  "nombre_producto": "Set Pesas 20kg",
+  "precio": 65990,
+  "categoria": "Deportivo",
+  "stock": 16,
+  "veces_vendido": 44,
+  "veces_buscado": 55
+},
+{
+  "_id": {
+    "$oid": "68f95a28324038435f5e5c0f"
+  },
+  "id_producto": "5007",
+  "nombre_producto": "Zapatillas Running Nike Downshifter",
+  "precio": 56990,
+  "categoria": "Deportivo",
+  "stock": 7,
+  "veces_vendido": 5,
+  "veces_buscado": 20
+},
+{
+  "_id": {
+    "$oid": "68f95a28324038435f5e5c10"
+  },
+  "id_producto": "5008",
+  "nombre_producto": "Lámpara LED de Escritorio",
+  "precio": 23990,
+  "categoria": "Hogar",
+  "stock": 46,
+  "veces_vendido": 2,
+  "veces_buscado": 52
+},
+{
+  "_id": {
+    "$oid": "68f95a28324038435f5e5c11"
+  },
+  "id_producto": "5009",
+  "nombre_producto": "Aspiradora Robot Samsung JetBot",
+  "precio": 308990,
+  "categoria": "Hogar",
+  "stock": 28,
+  "veces_vendido": 41,
+  "veces_buscado": 57
+},
+{
+  "_id": {
+    "$oid": "68f95a28324038435f5e5c12"
+  },
+  "id_producto": "5010",
+  "nombre_producto": "Juego de Sábanas 2 plazas",
+  "precio": 34990,
+  "categoria": "Hogar",
+  "stock": 28,
+  "veces_vendido": 34,
+  "veces_buscado": 52
+},
+{
+  "_id": {
+    "$oid": "68f95a28324038435f5e5c13"
+  },
+  "id_producto": "5011",
+  "nombre_producto": "Hervidor Eléctrico Hario 1.7L",
+  "precio": 40990,
+  "categoria": "Hogar",
+  "stock": 29,
+  "veces_vendido": 20,
+  "veces_buscado": 72
+},
+{
+  "_id": {
+    "$oid": "68f95a28324038435f5e5c14"
+  },
+  "id_producto": "5012",
+  "nombre_producto": "Audífonos Bluetooth Motorola Buds 3 -13",
+  "precio": 36990,
+  "categoria": "Electrónica",
+  "stock": 26,
+  "veces_vendido": 11,
+  "veces_buscado": 8
+},
+{
+  "_id": {
+    "$oid": "68f95a28324038435f5e5c15"
+  },
+  "id_producto": "5013",
+  "nombre_producto": "Smartwatch Xiaomi Mi Band 8 -14",
+  "precio": 52990,
+  "categoria": "Electrónica",
+  "stock": 30,
+  "veces_vendido": 41,
+  "veces_buscado": 17
+},
+{
+  "_id": {
+    "$oid": "68f95a28324038435f5e5c16"
+  },
+  "id_producto": "5014",
+  "nombre_producto": "Teléfono Redmi Note 12 -15",
+  "precio": 193990,
+  "categoria": "Electrónica",
+  "stock": 59,
+  "veces_vendido": 12,
+  "veces_buscado": 78
+},
+{
+  "_id": {
+    "$oid": "68f95a28324038435f5e5c17"
+  },
+  "id_producto": "5015",
+  "nombre_producto": "Parlante Bluetooth JBL Flip 5 -16",
+  "precio": 74990,
+  "categoria": "Electrónica",
+  "stock": 46,
+  "veces_vendido": 47,
+  "veces_buscado": 10
+},
+{
+  "_id": {
+    "$oid": "68f95a28324038435f5e5c18"
+  },
+  "id_producto": "5016",
+  "nombre_producto": "Pelota Adidas Fútbol Profesional -17",
+  "precio": 35990,
+  "categoria": "Deportivo",
+  "stock": 22,
+  "veces_vendido": 48,
+  "veces_buscado": 46
+},
+{
+  "_id": {
+    "$oid": "68f95a28324038435f5e5c19"
+  },
+  "id_producto": "5017",
+  "nombre_producto": "Cinta de correr Reebok ZR10 -18",
+  "precio": 416990,
+  "categoria": "Deportivo",
+  "stock": 31,
+  "veces_vendido": 16,
+  "veces_buscado": 14
+},
+{
+  "_id": {
+    "$oid": "68f95a28324038435f5e5c1a"
+  },
+  "id_producto": "5018",
+  "nombre_producto": "Set Pesas 20kg -19",
+  "precio": 77990,
+  "categoria": "Deportivo",
+  "stock": 88,
+  "veces_vendido": 12,
+  "veces_buscado": 41
+},
+{
+  "_id": {
+    "$oid": "68f95a28324038435f5e5c1b"
+  },
+  "id_producto": "5019",
+  "nombre_producto": "Zapatillas Running Nike Downshifter -20",
+  "precio": 68990,
+  "categoria": "Deportivo",
+  "stock": 49,
+  "veces_vendido": 47,
+  "veces_buscado": 53
+}]
