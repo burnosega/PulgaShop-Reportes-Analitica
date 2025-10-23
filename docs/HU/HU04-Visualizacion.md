@@ -11,13 +11,13 @@
 - **Cuando** accede al módulo de analítica  
 - **Entonces** puede ver los datos en forma de gráficos y tablas
 
-###Criterio 2: Visualización de tendencias por región
+### Criterio 2: Visualización de tendencias por región
 
--**Dado que** el usuario desea identificar patrones geográficos
+- **Dado que** el usuario desea identificar patrones geográficos
 
--**Cuando** se carga el dashboard
+- **Cuando** se carga el dashboard
 
--**Entonces** se muestra un gráfico o tabla con la cantidad total de ventas o envíos agrupadas por región, evidenciando tendencias
+- **Entonces** se muestra un gráfico o tabla con la cantidad total de ventas o envíos agrupadas por región, evidenciando tendencias
 
 ---
 
