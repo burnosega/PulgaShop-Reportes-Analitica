@@ -11,11 +11,24 @@
 - **Cuando** accede al módulo de analítica  
 - **Entonces** puede ver los datos en forma de gráficos y tablas
 
+###Criterio 2: Visualización de tendencias por región
+
+-**Dado que** el usuario desea identificar patrones geográficos
+
+-**Cuando** se carga el dashboard
+
+-**Entonces** se muestra un gráfico o tabla con la cantidad total de ventas o envíos agrupadas por región, evidenciando tendencias
+
 ---
 
 ## Definition of Done
-- Datos reflejan información comprobada  
-- Los datos se reflejan en menos de 5 minutos
+- [ ] Existe un endpoint `/api/analytics/ventas` que entrega datos agregados (totales, tendencias, por región).
+- [ ] El frontend muestra gráficos y tablas correctamente renderizados en el dashboard de analíticas.
+- [ ] Los datos se actualizan con un desfase no mayor a 5 minutos respecto a la base de datos.
+- [ ] Se incluye un gráfico o tabla de tendencias de ventas/envíos agrupadas por región.
+- [ ] Se implementaron pruebas unitarias del endpoint y pruebas de integración con el frontend.
+- [ ] La vista es responsiva y visualmente clara (validado en escritorio y móvil).
+
 
 ---
 
