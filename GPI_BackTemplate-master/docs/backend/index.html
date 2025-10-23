@@ -1,0 +1,483 @@
+<!doctype html>
+<html>
+  <head>
+    <title>API de Reportes de Ventas</title>
+    <style type="text/css">
+      body {
+      	font-family: Trebuchet MS, sans-serif;
+      	font-size: 15px;
+      	color: #444;
+      	margin-right: 24px;
+      }
+      
+      h1	{
+      	font-size: 25px;
+      }
+      h2	{
+      	font-size: 20px;
+      }
+      h3	{
+      	font-size: 16px;
+      	font-weight: bold;
+      }
+      hr	{
+      	height: 1px;
+      	border: 0;
+      	color: #ddd;
+      	background-color: #ddd;
+      }
+      
+      .app-desc {
+        clear: both;
+        margin-left: 20px;
+      }
+      .param-name {
+        width: 100%;
+      }
+      .license-info {
+        margin-left: 20px;
+      }
+      
+      .license-url {
+        margin-left: 20px;
+      }
+      
+      .model {
+        margin: 0 0 0px 20px;
+      }
+      
+      .method {
+        margin-left: 20px;
+      }
+      
+      .method-notes	{
+      	margin: 10px 0 20px 0;
+      	font-size: 90%;
+      	color: #555;
+      }
+      
+      pre {
+        padding: 10px;
+        margin-bottom: 2px;
+      }
+      
+      .http-method {
+       text-transform: uppercase;
+      }
+      
+      pre.get {
+        background-color: #0f6ab4;
+      }
+      
+      pre.post {
+        background-color: #10a54a;
+      }
+      
+      pre.put {
+        background-color: #c5862b;
+      }
+      
+      pre.delete {
+        background-color: #a41e22;
+      }
+      
+      .huge	{
+      	color: #fff;
+      }
+      
+      pre.example {
+        background-color: #f3f3f3;
+        padding: 10px;
+        border: 1px solid #ddd;
+      }
+      
+      code {
+        white-space: pre;
+      }
+      
+      .nickname {
+        font-weight: bold;
+      }
+      
+      .method-path {
+        font-size: 1.5em;
+        background-color: #0f6ab4;
+      }
+      
+      .up {
+        float:right;
+      }
+      
+      .parameter {
+        width: 500px;
+      }
+      
+      .param {
+        width: 500px;
+        padding: 10px 0 0 20px;
+        font-weight: bold;
+      }
+      
+      .param-desc {
+        width: 700px;
+        padding: 0 0 0 20px;
+        color: #777;
+      }
+      
+      .param-type {
+        font-style: italic;
+      }
+      
+      .param-enum-header {
+      width: 700px;
+      padding: 0 0 0 60px;
+      color: #777;
+      font-weight: bold;
+      }
+      
+      .param-enum {
+      width: 700px;
+      padding: 0 0 0 80px;
+      color: #777;
+      font-style: italic;
+      }
+      
+      .field-label {
+        padding: 0;
+        margin: 0;
+        clear: both;
+      }
+      
+      .field-items	{
+      	padding: 0 0 15px 0;
+      	margin-bottom: 15px;
+      }
+      
+      .return-type {
+        clear: both;
+        padding-bottom: 10px;
+      }
+      
+      .param-header {
+        font-weight: bold;
+      }
+      
+      .method-tags {
+        text-align: right;
+      }
+      
+      .method-tag {
+        background: none repeat scroll 0% 0% #24A600;
+        border-radius: 3px;
+        padding: 2px 10px;
+        margin: 2px;
+        color: #FFF;
+        display: inline-block;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+  <h1>API de Reportes de Ventas</h1>
+    <div class="app-desc">API para obtener reportes de datos de ventas de productos</div>
+    <div class="app-desc">More information: <a href="https://helloreverb.com">https://helloreverb.com</a></div>
+    <div class="app-desc">Contact Info: <a href="hello@helloreverb.com">hello@helloreverb.com</a></div>
+    <div class="app-desc">Version: 1.0.0</div>
+    <div class="app-desc">BasePath:/api</div>
+    <div class="license-info">All rights reserved</div>
+    <div class="license-url">http://apache.org/licenses/LICENSE-2.0.html</div>
+  <h2>Access</h2>
+    <ol>
+      <li></li>
+    </ol>
+
+  <h2><a name="__Methods">Methods</a></h2>
+  [ Jump to <a href="#__Models">Models</a> ]
+
+  <h3>Table of Contents </h3>
+  <div class="method-summary"></div>
+  <h4><a href="#Default">Default</a></h4>
+  <ul>
+  <li><a href="#generarReportePDF"><code><span class="http-method">get</span> /reportes/productos/pdf</code></a></li>
+  <li><a href="#obtenerDatos"><code><span class="http-method">get</span> /reportes/productos</code></a></li>
+  <li><a href="#obtenerDatosConFiltros"><code><span class="http-method">get</span> /reportes/productos/filtrados</code></a></li>
+  </ul>
+
+  <h1><a name="Default">Default</a></h1>
+  <div class="method"><a name="generarReportePDF"></a>
+    <div class="method-path">
+    <a class="up" href="#__Methods">Up</a>
+    <pre class="get"><code class="huge"><span class="http-method">get</span> /reportes/productos/pdf</code></pre></div>
+    <div class="method-summary">Generar reporte PDF de datos de ventas de productos (<span class="nickname">generarReportePDF</span>)</div>
+    <div class="method-notes">Genera un archivo PDF con/sin filtros de todos los productos de la base de datos.</div>
+
+
+
+
+
+    <h3 class="field-label">Query parameters</h3>
+    <div class="field-items">
+      <div class="param">nombre (optional)</div>
+      
+            <div class="param-desc"><span class="param-type">Query Parameter</span> &mdash; Filtrar por nombre del producto (búsqueda parcial case-insensitive) </div>      <div class="param">categoria (optional)</div>
+      
+            <div class="param-desc"><span class="param-type">Query Parameter</span> &mdash; Filtrar por categoría (puede contener múltiples categorías separadas por coma) </div>      <div class="param">minPrecio (optional)</div>
+      
+            <div class="param-desc"><span class="param-type">Query Parameter</span> &mdash; Precio mínimo del producto format: float</div>      <div class="param">maxPrecio (optional)</div>
+      
+            <div class="param-desc"><span class="param-type">Query Parameter</span> &mdash; Precio máximo del producto format: float</div>      <div class="param">fechaInicio (optional)</div>
+      
+            <div class="param-desc"><span class="param-type">Query Parameter</span> &mdash; Fecha de inicio del rango de creación (formato ISO 8601) format: date-time</div>      <div class="param">fechaFin (optional)</div>
+      
+            <div class="param-desc"><span class="param-type">Query Parameter</span> &mdash; Fecha de fin del rango de creación (formato ISO 8601) format: date-time</div>      <div class="param">ordenarPor (optional)</div>
+      
+            <div class="param-desc"><span class="param-type">Query Parameter</span> &mdash; Campo para ordenar los resultados </div>      <div class="param">orden (optional)</div>
+      
+            <div class="param-desc"><span class="param-type">Query Parameter</span> &mdash; Dirección del ordenamiento default: asc </div>    </div>  <!-- field-items -->
+
+
+    <h3 class="field-label">Return type</h3>
+    <div class="return-type">
+      
+      byte[]
+    </div>
+
+    <!--Todo: process Response Object and its headers, schema, examples -->
+
+    <h3 class="field-label">Example data</h3>
+    <div class="example-data-content-type">Content-Type: application/json</div>
+    <pre class="example"><code>""</code></pre>
+
+    <h3 class="field-label">Produces</h3>
+    This API call produces the following media types according to the <span class="header">Accept</span> request header;
+    the media type will be conveyed by the <span class="header">Content-Type</span> response header.
+    <ul>
+      <li><code>application/pdf</code></li>
+      <li><code>application/json</code></li>
+    </ul>
+
+    <h3 class="field-label">Responses</h3>
+    <h4 class="field-label">200</h4>
+    Reporte PDF generado exitosamente
+        <a href="#byte[]">byte[]</a>
+    <h4 class="field-label">400</h4>
+    Solicitud incorrecta - parámetros inválidos
+        <a href="#Error">Error</a>
+    <h3 class="field-label">Example data</h3>
+    <div class="example-data-content-type">Content-Type: error400</div>
+    <pre class="example"><code></code></pre>
+    <h4 class="field-label">401</h4>
+    No autorizado - token JWT inválido o faltante
+        <a href="#Error">Error</a>
+    <h3 class="field-label">Example data</h3>
+    <div class="example-data-content-type">Content-Type: error401</div>
+    <pre class="example"><code></code></pre>
+    <h4 class="field-label">403</h4>
+    Prohibido - permisos insuficientes
+        <a href="#Error">Error</a>
+    <h3 class="field-label">Example data</h3>
+    <div class="example-data-content-type">Content-Type: error403</div>
+    <pre class="example"><code></code></pre>
+  </div> <!-- method -->
+  <hr/>
+  <div class="method"><a name="obtenerDatos"></a>
+    <div class="method-path">
+    <a class="up" href="#__Methods">Up</a>
+    <pre class="get"><code class="huge"><span class="http-method">get</span> /reportes/productos</code></pre></div>
+    <div class="method-summary">Obtener todos los datos de ventas de productos (<span class="nickname">obtenerDatos</span>)</div>
+    <div class="method-notes">Este endpoint devuelve todos los productos disponibles en la base de datos, sin aplicar filtros.</div>
+
+
+
+
+
+
+
+    <h3 class="field-label">Return type</h3>
+    <div class="return-type">
+      array[<a href="#ProductoReporte">ProductoReporte</a>]
+      
+    </div>
+
+    <!--Todo: process Response Object and its headers, schema, examples -->
+
+    <h3 class="field-label">Example data</h3>
+    <div class="example-data-content-type">Content-Type: application/json</div>
+    <pre class="example"><code>[ {
+  "precio" : 6.0274563,
+  "categoria" : "categoria",
+  "_id" : 0,
+  "veces_vendido" : 5,
+  "stock" : 1,
+  "veces_buscado" : 5,
+  "fecha_creacion" : "2000-01-23T04:56:07.000+00:00",
+  "nombre" : "nombre"
+}, {
+  "precio" : 6.0274563,
+  "categoria" : "categoria",
+  "_id" : 0,
+  "veces_vendido" : 5,
+  "stock" : 1,
+  "veces_buscado" : 5,
+  "fecha_creacion" : "2000-01-23T04:56:07.000+00:00",
+  "nombre" : "nombre"
+} ]</code></pre>
+
+    <h3 class="field-label">Produces</h3>
+    This API call produces the following media types according to the <span class="header">Accept</span> request header;
+    the media type will be conveyed by the <span class="header">Content-Type</span> response header.
+    <ul>
+      <li><code>application/json</code></li>
+    </ul>
+
+    <h3 class="field-label">Responses</h3>
+    <h4 class="field-label">200</h4>
+    Datos de ventas de productos obtenidos exitosamente
+        
+    <h3 class="field-label">Example data</h3>
+    <div class="example-data-content-type">Content-Type: ejemploExitoso</div>
+    <pre class="example"><code></code></pre>
+    <h4 class="field-label">401</h4>
+    No autorizado - token JWT inválido o faltante
+        <a href="#Error">Error</a>
+    <h3 class="field-label">Example data</h3>
+    <div class="example-data-content-type">Content-Type: error401</div>
+    <pre class="example"><code></code></pre>
+    <h4 class="field-label">403</h4>
+    Prohibido - permisos insuficientes
+        <a href="#Error">Error</a>
+    <h3 class="field-label">Example data</h3>
+    <div class="example-data-content-type">Content-Type: error403</div>
+    <pre class="example"><code></code></pre>
+  </div> <!-- method -->
+  <hr/>
+  <div class="method"><a name="obtenerDatosConFiltros"></a>
+    <div class="method-path">
+    <a class="up" href="#__Methods">Up</a>
+    <pre class="get"><code class="huge"><span class="http-method">get</span> /reportes/productos/filtrados</code></pre></div>
+    <div class="method-summary">Obtener datos de ventas de productos con filtros aplicados (<span class="nickname">obtenerDatosConFiltros</span>)</div>
+    <div class="method-notes">Este endpoint devuelve productos aplicando diversos filtros como nombre, categoría, rango de precios y fechas.</div>
+
+
+
+
+
+    <h3 class="field-label">Query parameters</h3>
+    <div class="field-items">
+      <div class="param">nombre (optional)</div>
+      
+            <div class="param-desc"><span class="param-type">Query Parameter</span> &mdash; Filtrar por nombre del producto (búsqueda parcial case-insensitive) </div>      <div class="param">categoria (optional)</div>
+      
+            <div class="param-desc"><span class="param-type">Query Parameter</span> &mdash; Filtrar por categoría (puede contener múltiples categorías separadas por coma) </div>      <div class="param">minPrecio (optional)</div>
+      
+            <div class="param-desc"><span class="param-type">Query Parameter</span> &mdash; Precio mínimo del producto format: float</div>      <div class="param">maxPrecio (optional)</div>
+      
+            <div class="param-desc"><span class="param-type">Query Parameter</span> &mdash; Precio máximo del producto format: float</div>      <div class="param">fechaInicio (optional)</div>
+      
+            <div class="param-desc"><span class="param-type">Query Parameter</span> &mdash; Fecha de inicio del rango de creación (formato ISO 8601) format: date-time</div>      <div class="param">fechaFin (optional)</div>
+      
+            <div class="param-desc"><span class="param-type">Query Parameter</span> &mdash; Fecha de fin del rango de creación (formato ISO 8601) format: date-time</div>      <div class="param">ordenarPor (optional)</div>
+      
+            <div class="param-desc"><span class="param-type">Query Parameter</span> &mdash; Campo para ordenar los resultados </div>      <div class="param">orden (optional)</div>
+      
+            <div class="param-desc"><span class="param-type">Query Parameter</span> &mdash; Dirección del ordenamiento default: asc </div>    </div>  <!-- field-items -->
+
+
+    <h3 class="field-label">Return type</h3>
+    <div class="return-type">
+      array[<a href="#ProductoReporte">ProductoReporte</a>]
+      
+    </div>
+
+    <!--Todo: process Response Object and its headers, schema, examples -->
+
+    <h3 class="field-label">Example data</h3>
+    <div class="example-data-content-type">Content-Type: application/json</div>
+    <pre class="example"><code>[ {
+  "precio" : 6.0274563,
+  "categoria" : "categoria",
+  "_id" : 0,
+  "veces_vendido" : 5,
+  "stock" : 1,
+  "veces_buscado" : 5,
+  "fecha_creacion" : "2000-01-23T04:56:07.000+00:00",
+  "nombre" : "nombre"
+}, {
+  "precio" : 6.0274563,
+  "categoria" : "categoria",
+  "_id" : 0,
+  "veces_vendido" : 5,
+  "stock" : 1,
+  "veces_buscado" : 5,
+  "fecha_creacion" : "2000-01-23T04:56:07.000+00:00",
+  "nombre" : "nombre"
+} ]</code></pre>
+
+    <h3 class="field-label">Produces</h3>
+    This API call produces the following media types according to the <span class="header">Accept</span> request header;
+    the media type will be conveyed by the <span class="header">Content-Type</span> response header.
+    <ul>
+      <li><code>application/json</code></li>
+    </ul>
+
+    <h3 class="field-label">Responses</h3>
+    <h4 class="field-label">200</h4>
+    Datos de ventas de productos filtrados obtenidos exitosamente
+        
+    <h3 class="field-label">Example data</h3>
+    <div class="example-data-content-type">Content-Type: ejemploExitoso</div>
+    <pre class="example"><code></code></pre>
+    <h4 class="field-label">400</h4>
+    Solicitud incorrecta - parámetros inválidos
+        <a href="#Error">Error</a>
+    <h3 class="field-label">Example data</h3>
+    <div class="example-data-content-type">Content-Type: error400</div>
+    <pre class="example"><code></code></pre>
+    <h4 class="field-label">401</h4>
+    No autorizado - token JWT inválido o faltante
+        <a href="#Error">Error</a>
+    <h3 class="field-label">Example data</h3>
+    <div class="example-data-content-type">Content-Type: error401</div>
+    <pre class="example"><code></code></pre>
+    <h4 class="field-label">403</h4>
+    Prohibido - permisos insuficientes
+        <a href="#Error">Error</a>
+    <h3 class="field-label">Example data</h3>
+    <div class="example-data-content-type">Content-Type: error403</div>
+    <pre class="example"><code></code></pre>
+  </div> <!-- method -->
+  <hr/>
+
+  <h2><a name="__Models">Models</a></h2>
+  [ Jump to <a href="#__Methods">Methods</a> ]
+
+  <h3>Table of Contents</h3>
+  <ol>
+    <li><a href="#Error"><code>Error</code></a></li>
+    <li><a href="#ProductoReporte"><code>ProductoReporte</code></a></li>
+  </ol>
+
+  <div class="model">
+    <h3><a name="Error"><code>Error</code></a> <a class="up" href="#__Models">Up</a></h3>
+    <div class='model-description'>Respuesta de error</div>
+    <div class="field-items">
+      <div class="param">code (optional)</div><div class="param-desc"><span class="param-type"><a href="#integer">Integer</a></span> Código de estado HTTP </div>
+<div class="param">message (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span> Mensaje de error </div>
+    </div>  <!-- field-items -->
+  </div>
+  <div class="model">
+    <h3><a name="ProductoReporte"><code>ProductoReporte</code></a> <a class="up" href="#__Models">Up</a></h3>
+    <div class='model-description'>Registro de reporte de ventas de producto</div>
+    <div class="field-items">
+      <div class="param">_id (optional)</div><div class="param-desc"><span class="param-type"><a href="#integer">Integer</a></span> ID del producto </div>
+<div class="param">nombre (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span> Nombre del producto </div>
+<div class="param">precio (optional)</div><div class="param-desc"><span class="param-type"><a href="#float">Float</a></span> Precio del producto format: float</div>
+<div class="param">categoria (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span> Categoría del producto </div>
+<div class="param">stock (optional)</div><div class="param-desc"><span class="param-type"><a href="#integer">Integer</a></span> Cantidad actual en stock </div>
+<div class="param">veces_vendido (optional)</div><div class="param-desc"><span class="param-type"><a href="#integer">Integer</a></span> Número de veces vendido </div>
+<div class="param">veces_buscado (optional)</div><div class="param-desc"><span class="param-type"><a href="#integer">Integer</a></span> Número de veces buscado </div>
+<div class="param">fecha_creacion (optional)</div><div class="param-desc"><span class="param-type"><a href="#DateTime">Date</a></span> Fecha de creación del producto format: date-time</div>
+    </div>  <!-- field-items -->
+  </div>
+  </body>
+</html>
