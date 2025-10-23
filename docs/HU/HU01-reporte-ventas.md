@@ -1,32 +1,41 @@
 # Reporte de Ventas
 
-**Como administrador**, quiero obtener un reporte de ventas con filtrados respectivos para analizar ganancias.
+**Como administrador**, quiero obtener un reporte de ventas con filtrados respectivos para ver ganancias.
 
 ---
 
-## Criterios de Aceptación
+###  Criterios de Aceptación
 
-### Criterio 1: Visualización básica del reporte
-- **Dado que** el administrador quiere analizar las ventas  
-- **Cuando** accedo al módulo de reportes de ventas  
-- **Entonces** puedo ver un listado de ventas con las columnas: fecha, producto, cantidad, precio y total
+- [ ] **Visualización básica del reporte**: El reporte muestra las columnas:
+      - Fecha
+      - Producto
+      - Cantidad
+      - Precio unitario
+      - Total
 
-### Criterio 2: Filtrado por rango de fechas
-- **Dado que** el administrador quiere analizar un periodo específico  
-- **Cuando** selecciono un rango de fechas y aplico el filtro  
-- **Entonces** el reporte muestra únicamente las ventas dentro de ese rango
+- [ ] **Filtrado por rango de fechas**:
+      - Al seleccionar un rango de fechas y aplicar el filtro,
+        el reporte se actualiza mostrando solo los registros correspondientes al rango.
 
-### Criterio 3: Filtrado por producto
-- **Dado que** el administrador quiere analizar un producto específico  
-- **Cuando** selecciono el producto y aplico el filtro  
-- **Entonces** el reporte muestra solo las ventas de ese producto
+- [ ] **Filtrado por producto**:
+      - Al seleccionar un producto específico,
+        se muestran únicamente las ventas asociadas a ese producto.
 
+- [ ] **Tendencia de envío por región**:
+      - El reporte incluye un gráfico o tabla que muestra la cantidad total de ventas/envíos agrupadas por región.
 ---
 
 ## Definition of Done
-- El módulo permite generar reportes con columnas básicas (fecha, producto, cantidad, precio, total)  
-- Los filtros de fechas y productos funcionan correctamente  
-- Los datos se muestran de manera clara y exportable (CSV o PDF)
+- [ ] Existe un endpoint funcional: **`/api/reportes/ventas`** que entrega los datos requeridos.
+- [ ] El frontend muestra una tabla con las columnas: fecha, producto, cantidad, precio y total.
+- [ ] El filtro por rango de fechas devuelve los datos correctamente.
+- [ ] El filtro por producto actualiza el listado correctamente.
+- [ ] El reporte permite exportar datos en formato **CSV** o **PDF**.
+- [ ] Se muestra un gráfico o tabla con las tendencias de ventas agrupadas por región.
+- [ ] El acceso al módulo está restringido solo a usuarios con rol **"administrador"** o **"autorizado"**.
+- [ ] Los intentos de acceso no autorizado quedan registrados en la base de datos o log de auditoría.
+- [ ] Las pruebas unitarias y de integración del módulo han sido implementadas y pasan exitosamente.
+
 
 ---
 
