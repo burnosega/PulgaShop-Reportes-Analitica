@@ -9,9 +9,10 @@
 - [ ] **Visualización básica del reporte**: El reporte muestra las columnas:
       - Fecha
       - Producto
-      - Cantidad
-      - Precio unitario
-      - Total
+      - sotck
+      - Precio
+      - Veces vendido
+      - Categoria
 
 - [ ] **Filtrado por rango de fechas**:
       - Al seleccionar un rango de fechas y aplicar el filtro,
@@ -21,18 +22,14 @@
       - Al seleccionar un producto específico,
         se muestran únicamente las ventas asociadas a ese producto.
 
-- [ ] **Tendencia de envío por región**:
-      - El reporte incluye un gráfico o tabla que muestra la cantidad total de ventas/envíos agrupadas por región.
 ---
 
 ## Definition of Done
 - [ ] Existe un endpoint funcional: **`/api/reportes/ventas`** que entrega los datos requeridos.
-- [ ] El frontend muestra una tabla con las columnas: fecha, producto, cantidad, precio y total.
+- [ ] El frontend muestra una vista de reportes con las columnas: fecha, producto, stock, precio, veces vendido y categoria.
 - [ ] El filtro por rango de fechas devuelve los datos correctamente.
 - [ ] El filtro por producto actualiza el listado correctamente.
 - [ ] El reporte permite exportar datos en formato **CSV** o **PDF**.
-- [ ] Se muestra un gráfico o tabla con las tendencias de ventas agrupadas por región.
-- [ ] El acceso al módulo está restringido solo a usuarios con rol **"administrador"** o **"autorizado"**.
 - [ ] Los intentos de acceso no autorizado quedan registrados en la base de datos o log de auditoría.
 - [ ] Las pruebas unitarias y de integración del módulo han sido implementadas y pasan exitosamente.
 
