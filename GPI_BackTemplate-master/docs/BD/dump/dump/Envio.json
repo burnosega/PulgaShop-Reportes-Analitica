@@ -1,0 +1,122 @@
+[
+  {
+    "id_envio": 100,
+    "id_carrito": 2000,
+    "id_usuario": 1,
+    "region": "Valparaíso"
+  },
+  {
+    "id_envio": 200,
+    "id_carrito": 2001,
+    "id_usuario": 2,
+    "region": "Metropolitana"
+  },
+  {
+    "id_envio": 300,
+    "id_carrito": 2002,
+    "id_usuario": 3,
+    "region": "Biobío"
+  },
+  {
+    "id_envio": 400,
+    "id_carrito": 2003,
+    "id_usuario": 4,
+    "region": "Metropolitana"
+  },
+  {
+    "id_envio": 500,
+    "id_carrito": 2004,
+    "id_usuario": 5,
+    "region": "Los Lagos"
+  },
+  {
+    "id_envio": 600,
+    "id_carrito": 2005,
+    "id_usuario": 6,
+    "region": "Metropolitana"
+  },
+  {
+    "id_envio": 700,
+    "id_carrito": 2006,
+    "id_usuario": 7,
+    "region": "Metropolitana"
+  },
+  {
+    "id_envio": 800,
+    "id_carrito": 2007,
+    "id_usuario": 8,
+    "region": "Valparaíso"
+  },
+  {
+    "id_envio": 900,
+    "id_carrito": 2008,
+    "id_usuario": 9,
+    "region": "Metropolitana"
+  },
+  {
+    "id_envio": 1000,
+    "id_carrito": 2009,
+    "id_usuario": 10,
+    "region": "Atacama"
+  },
+  {
+    "id_envio": 1100,
+    "id_carrito": 2010,
+    "id_usuario": 11,
+    "region": "Metropolitana"
+  },
+  {
+    "id_envio": 1200,
+    "id_carrito": 2011,
+    "id_usuario": 12,
+    "region": "Antofagasta"
+  },
+  {
+    "id_envio": 1300,
+    "id_carrito": 2012,
+    "id_usuario": 13,
+    "region": "Metropolitana"
+  },
+  {
+    "id_envio": 1400,
+    "id_carrito": 2013,
+    "id_usuario": 14,
+    "region": "O'Higgins"
+  },
+  {
+    "id_envio": 1500,
+    "id_carrito": 2014,
+    "id_usuario": 15,
+    "region": "Metropolitana"
+  },
+  {
+    "id_envio": 1600,
+    "id_carrito": 2015,
+    "id_usuario": 16,
+    "region": "Araucanía"
+  },
+  {
+    "id_envio": 1700,
+    "id_carrito": 2016,
+    "id_usuario": 17,
+    "region": "Metropolitana"
+  },
+  {
+    "id_envio": 1800,
+    "id_carrito": 2017,
+    "id_usuario": 18,
+    "region": "Maule"
+  },
+  {
+    "id_envio": 1900,
+    "id_carrito": 2018,
+    "id_usuario": 19,
+    "region": "Metropolitana"
+  },
+  {
+    "id_envio": 2000,
+    "id_carrito": 2019,
+    "id_usuario": 20,
+    "region": "Valparaíso"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id_usuario": 1,
+    "nombre": "Audífonos Bluetooth Motorola Buds 3",
+    "id_producto": 5000,
+    "fecha": "2025-10-22T10:43:00.000Z"
+  },
+  {
+    "id_usuario": 2,
+    "nombre": "Smartwatch Xiaomi Mi Band 8",
+    "id_producto": 5001,
+    "fecha": "2025-10-22T09:44:00.000Z"
+  },
+  {
+    "id_usuario": 3,
+    "nombre": "Teléfono Redmi Note 12",
+    "id_producto": 5002,
+    "fecha": "2025-10-22T03:55:00.000Z"
+  },
+  {
+    "id_usuario": 4,
+    "nombre": "Parlante Bluetooth JBL Flip 5",
+    "id_producto": 5003,
+    "fecha": "2025-10-22T03:09:00.000Z"
+  },
+  {
+    "id_usuario": 5,
+    "nombre": "Pelota Adidas Fútbol Profesional",
+    "id_producto": 5004,
+    "fecha": "2025-10-22T00:07:00.000Z"
+  },
+  {
+    "id_usuario": 6,
+    "nombre": "Cinta de correr Reebok ZR10",
+    "id_producto": 5005,
+    "fecha": "2025-10-21T22:17:00.000Z"
+  },
+  {
+    "id_usuario": 7,
+    "nombre": "Set Pesas 20kg",
+    "id_producto": 5006,
+    "fecha": "2025-10-21T22:12:00.000Z"
+  },
+  {
+    "id_usuario": 8,
+    "nombre": "Zapatillas Running Nike Downshifter",
+    "id_producto": 5007,
+    "fecha": "2025-10-20T20:26:00.000Z"
+  },
+  {
+    "id_usuario": 9,
+    "nombre": "Lámpara LED de Escritorio",
+    "id_producto": 5008,
+    "fecha": "2025-10-19T18:55:00.000Z"
+  },
+  {
+    "id_usuario": 10,
+    "nombre": "Aspiradora Robot Samsung JetBot",
+    "id_producto": 5009,
+    "fecha": "2025-10-19T14:27:00.000Z"
+  },
+  {
+    "id_usuario": 11,
+    "nombre": "Juego de Sábanas 2 plazas",
+    "id_producto": 5010,
+    "fecha": "2025-10-19T09:29:00.000Z"
+  },
+  {
+    "id_usuario": 12,
+    "nombre": "Hervidor Eléctrico Hario 1.7L",
+    "id_producto": 5011,
+    "fecha": "2025-10-19T05:35:00.000Z"
+  },
+  {
+    "id_usuario": 13,
+    "nombre": "Audífonos Bluetooth Motorola Buds 3 -13",
+    "id_producto": 5012,
+    "fecha": "2025-10-19T04:17:00.000Z"
+  },
+  {
+    "id_usuario": 14,
+    "nombre": "Smartwatch Xiaomi Mi Band 8 -14",
+    "id_producto": 5013,
+    "fecha": "2025-10-19T03:06:00.000Z"
+  },
+  {
+    "id_usuario": 15,
+    "nombre": "Teléfono Redmi Note 12 -15",
+    "id_producto": 5014,
+    "fecha": "2025-10-19T02:32:00.000Z"
+  },
+  {
+    "id_usuario": 16,
+    "nombre": "Parlante Bluetooth JBL Flip 5 -16",
+    "id_producto": 5015,
+    "fecha": "2025-10-19T00:05:00.000Z"
+  },
+  {
+    "id_usuario": 17,
+    "nombre": "Pelota Adidas Fútbol Profesional -17",
+    "id_producto": 5016,
+    "fecha": "2025-10-18T16:21:00.000Z"
+  },
+  {
+    "id_usuario": 18,
+    "nombre": "Cinta de correr Reebok ZR10 -18",
+    "id_producto": 5017,
+    "fecha": "2025-10-18T14:21:00.000Z"
+  },
+  {
+    "id_usuario": 19,
+    "nombre": "Set Pesas 20kg -19",
+    "id_producto": 5018,
+    "fecha": "2025-10-18T13:32:00.000Z"
+  },
+  {
+    "id_usuario": 20,
+    "nombre": "Zapatillas Running Nike Downshifter -20",
+    "id_producto": 5019,
+    "fecha": "2025-10-18T13:06:00.000Z"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "id_usuario": 1,
+    "nombre": "Juan",
+    "apellido": "Soto",
+    "nombre_usuario": "juanperez",
+    "id_rol": "administrador"
+  },
+  {
+    "id_usuario": 2,
+    "nombre": "María",
+    "apellido": "Rivas",
+    "nombre_usuario": "mariagonzalez",
+    "id_rol": "administrador"
+  },
+  {
+    "id_usuario": 3,
+    "nombre": "Carlos",
+    "apellido": "Díaz",
+    "nombre_usuario": "carlosmunoz",
+    "id_rol": "administrador"
+  },
+  {
+    "id_usuario": 4,
+    "nombre": "Fernanda",
+    "apellido": "Rojas",
+    "nombre_usuario": "fernandarojas",
+    "id_rol": "administrador"
+  },
+  {
+    "id_usuario": 5,
+    "nombre": "Pedro",
+    "apellido": "Salinas",
+    "nombre_usuario": "pedrosalinas",
+    "id_rol": "administrador"
+  },
+  {
+    "id_usuario": 6,
+    "nombre": "Camila",
+    "apellido": "Navarro",
+    "nombre_usuario": "camilanavarro",
+    "id_rol": "cliente"
+  },
+  {
+    "id_usuario": 7,
+    "nombre": "Felipe",
+    "apellido": "Vargas",
+    "nombre_usuario": "felipevargas",
+    "id_rol": "cliente"
+  },
+  {
+    "id_usuario": 8,
+    "nombre": "Daniela",
+    "apellido": "Reyes",
+    "nombre_usuario": "danielareyes",
+    "id_rol": "cliente"
+  },
+  {
+    "id_usuario": 9,
+    "nombre": "Ricardo",
+    "apellido": "Contreras",
+    "nombre_usuario": "ricardocontreras",
+    "id_rol": "cliente"
+  },
+  {
+    "id_usuario": 10,
+    "nombre": "Sofía",
+    "apellido": "Herrera",
+    "nombre_usuario": "sofiaherrera",
+    "id_rol": "cliente"
+  },
+  {
+    "id_usuario": 11,
+    "nombre": "Tomás",
+    "apellido": "Silva",
+    "nombre_usuario": "tomassilva",
+    "id_rol": "moderador"
+  },
+  {
+    "id_usuario": 12,
+    "nombre": "Antonia",
+    "apellido": "Espinoza",
+    "nombre_usuario": "antoniaespinoza",
+    "id_rol": "moderador"
+  },
+  {
+    "id_usuario": 13,
+    "nombre": "Luis",
+    "apellido": "Cifuentes",
+    "nombre_usuario": "luiscifuentes",
+    "id_rol": "moderador"
+  },
+  {
+    "id_usuario": 14,
+    "nombre": "Valentina",
+    "apellido": "Soto",
+    "nombre_usuario": "valentinasoto",
+    "id_rol": "moderador"
+  },
+  {
+    "id_usuario": 15,
+    "nombre": "Diego",
+    "apellido": "Carrasco",
+    "nombre_usuario": "diegocarrasco",
+    "id_rol": "moderador"
+  },
+  {
+    "id_usuario": 16,
+    "nombre": "Javiera",
+    "apellido": "Fuentes",
+    "nombre_usuario": "javierafuentes",
+    "id_rol": "vendedor"
+  },
+  {
+    "id_usuario": 17,
+    "nombre": "Ignacio",
+    "apellido": "Rojas",
+    "nombre_usuario": "ignaciorojas",
+    "id_rol": "vendedor"
+  },
+  {
+    "id_usuario": 18,
+    "nombre": "Francisca",
+    "apellido": "Leiva",
+    "nombre_usuario": "franciscaleiva",
+    "id_rol": "vendedor"
+  },
+  {
+    "id_usuario": 19,
+    "nombre": "Sebastián",
+    "apellido": "Bravo",
+    "nombre_usuario": "sebastianbravo",
+    "id_rol": "vendedor"
+  },
+  {
+    "id_usuario": 20,
+    "nombre": "Carolina",
+    "apellido": "Vega",
+    "nombre_usuario": "carolinavega",
+    "id_rol": "vendedor"
+  }
+]

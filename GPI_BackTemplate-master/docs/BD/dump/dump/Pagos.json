@@ -1,0 +1,82 @@
+[
+  {
+    "id_carrito": 2000,
+    "estado": "abandonado"
+  },
+  {
+    "id_carrito": 2001,
+    "estado": "abandonado"
+  },
+  {
+    "id_carrito": 2002,
+    "estado": "abandonado"
+  },
+  {
+    "id_carrito": 2003,
+    "estado": "completado"
+  },
+  {
+    "id_carrito": 2004,
+    "estado": "cancelado"
+  },
+  {
+    "id_carrito": 2005,
+    "estado": "cancelado"
+  },
+  {
+    "id_carrito": 2006,
+    "estado": "completado"
+  },
+  {
+    "id_carrito": 2007,
+    "estado": "cancelado"
+  },
+  {
+    "id_carrito": 2008,
+    "estado": "abandonado"
+  },
+  {
+    "id_carrito": 2009,
+    "estado": "cancelado"
+  },
+  {
+    "id_carrito": 2010,
+    "estado": "completado"
+  },
+  {
+    "id_carrito": 2011,
+    "estado": "completado"
+  },
+  {
+    "id_carrito": 2012,
+    "estado": "cancelado"
+  },
+  {
+    "id_carrito": 2013,
+    "estado": "completado"
+  },
+  {
+    "id_carrito": 2014,
+    "estado": "completado"
+  },
+  {
+    "id_carrito": 2015,
+    "estado": "abandonado"
+  },
+  {
+    "id_carrito": 2016,
+    "estado": "completado"
+  },
+  {
+    "id_carrito": 2017,
+    "estado": "completado"
+  },
+  {
+    "id_carrito": 2018,
+    "estado": "completado"
+  },
+  {
+    "id_carrito": 2019,
+    "estado": "completado"
+  }
+]
