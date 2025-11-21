@@ -1,0 +1,45 @@
+{
+  "Usuario": {
+    "id_usuario": "Number",
+    "nombre": "String",
+    "apellido": "String",
+    "nombre_usuario": "String",
+    "id_rol": "String"
+  },
+
+  "Productos": {
+    "id_producto": "Number",
+    "nombre": "String",
+    "categoria": "String",
+    "precio": "Number",
+    "cantidad": "Number",
+    "veces_vendido": "Number",
+    "veces_buscado": "Number",
+    "fecha_creacion": "Date"
+  },
+
+  "Carrito": {
+    "id_carrito": "Number",
+    "items": "String"
+  },
+
+  "Pagos": {
+    "id_carrito": "Number",
+    "estado": "String"
+  },
+
+  "Envio": {
+    "id_envio": "Number",
+    "id_carrito": "Number",
+    "id_usuario": "Number",
+    "region": "String"
+  }
+},
+
+"Busqueda":{
+ 
+  "id_usuario": "Number",
+  "nombre": "String",
+  "id_producto": "Number",
+  "fecha": "Date"
+}
