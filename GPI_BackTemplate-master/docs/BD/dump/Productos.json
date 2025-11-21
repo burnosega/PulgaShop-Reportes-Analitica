@@ -1,240 +1,202 @@
-[{
-  "_id": {
-    "$oid": "68f95a28324038435f5e5c08"
+[
+  {
+    "id_producto": 5000,
+    "nombre": "Audífonos Bluetooth Motorola Buds 3",
+    "categoria": "Electrónica",
+    "precio": 24990,
+    "cantidad": 17,
+    "veces_vendido": 8,
+    "veces_buscado": 80,
+    "fecha_creacion": "2025-05-09T05:44:47"
   },
-  "id_producto": "5000",
-  "nombre_producto": "Audífonos Bluetooth Motorola Buds 3",
-  "precio": 24990,
-  "categoria": "Electrónica",
-  "stock": 17,
-  "veces_vendido": 14,
-  "veces_buscado": 48
-},
-{
-  "_id": {
-    "$oid": "68f95a28324038435f5e5c09"
+  {
+    "id_producto": 5001,
+    "nombre": "Smartwatch Xiaomi Mi Band 8",
+    "categoria": "Electrónica",
+    "precio": 40990,
+    "cantidad": 47,
+    "veces_vendido": 11,
+    "veces_buscado": 44,
+    "fecha_creacion": "2025-06-01T01:28:54"
   },
-  "id_producto": "5001",
-  "nombre_producto": "Smartwatch Xiaomi Mi Band 8",
-  "precio": 40990,
-  "categoria": "Electrónica",
-  "stock": 47,
-  "veces_vendido": 2,
-  "veces_buscado": 42
-},
-{
-  "_id": {
-    "$oid": "68f95a28324038435f5e5c0a"
+  {
+    "id_producto": 5002,
+    "nombre": "Teléfono Redmi Note 12",
+    "categoria": "Electrónica",
+    "precio": 181990,
+    "cantidad": 73,
+    "veces_vendido": 5,
+    "veces_buscado": 30,
+    "fecha_creacion": "2025-09-28T23:46:05"
   },
-  "id_producto": "5002",
-  "nombre_producto": "Teléfono Redmi Note 12",
-  "precio": 181990,
-  "categoria": "Electrónica",
-  "stock": 73,
-  "veces_vendido": 28,
-  "veces_buscado": 40
-},
-{
-  "_id": {
-    "$oid": "68f95a28324038435f5e5c0b"
+  {
+    "id_producto": 5003,
+    "nombre": "Parlante Bluetooth JBL Flip 5",
+    "categoria": "Electrónica",
+    "precio": 62990,
+    "cantidad": 88,
+    "veces_vendido": 14,
+    "veces_buscado": 84,
+    "fecha_creacion": "2025-05-26T07:33:27"
   },
-  "id_producto": "5003",
-  "nombre_producto": "Parlante Bluetooth JBL Flip 5",
-  "precio": 62990,
-  "categoria": "Electrónica",
-  "stock": 88,
-  "veces_vendido": 12,
-  "veces_buscado": 28
-},
-{
-  "_id": {
-    "$oid": "68f95a28324038435f5e5c0c"
+  {
+    "id_producto": 5004,
+    "nombre": "Pelota Adidas Fútbol Profesional",
+    "categoria": "Deportivo",
+    "precio": 23990,
+    "cantidad": 93,
+    "veces_vendido": 9,
+    "veces_buscado": 27,
+    "fecha_creacion": "2025-01-15T11:47:46"
   },
-  "id_producto": "5004",
-  "nombre_producto": "Pelota Adidas Fútbol Profesional",
-  "precio": 23990,
-  "categoria": "Deportivo",
-  "stock": 93,
-  "veces_vendido": 18,
-  "veces_buscado": 20
-},
-{
-  "_id": {
-    "$oid": "68f95a28324038435f5e5c0d"
+  {
+    "id_producto": 5005,
+    "nombre": "Cinta de correr Reebok ZR10",
+    "categoria": "Deportivo",
+    "precio": 404990,
+    "cantidad": 115,
+    "veces_vendido": 19,
+    "veces_buscado": 171,
+    "fecha_creacion": "2025-04-06T21:12:24"
   },
-  "id_producto": "5005",
-  "nombre_producto": "Cinta de correr Reebok ZR10",
-  "precio": 404990,
-  "categoria": "Deportivo",
-  "stock": 115,
-  "veces_vendido": 48,
-  "veces_buscado": 3
-},
-{
-  "_id": {
-    "$oid": "68f95a28324038435f5e5c0e"
+  {
+    "id_producto": 5006,
+    "nombre": "Set Pesas 20kg",
+    "categoria": "Deportivo",
+    "precio": 65990,
+    "cantidad": 16,
+    "veces_vendido": 15,
+    "veces_buscado": 150,
+    "fecha_creacion": "2025-04-01T03:37:36"
   },
-  "id_producto": "5006",
-  "nombre_producto": "Set Pesas 20kg",
-  "precio": 65990,
-  "categoria": "Deportivo",
-  "stock": 16,
-  "veces_vendido": 44,
-  "veces_buscado": 55
-},
-{
-  "_id": {
-    "$oid": "68f95a28324038435f5e5c0f"
+  {
+    "id_producto": 5007,
+    "nombre": "Zapatillas Running Nike Downshifter",
+    "categoria": "Deportivo",
+    "precio": 56990,
+    "cantidad": 7,
+    "veces_vendido": 7,
+    "veces_buscado": 28,
+    "fecha_creacion": "2025-11-20T18:56:19"
   },
-  "id_producto": "5007",
-  "nombre_producto": "Zapatillas Running Nike Downshifter",
-  "precio": 56990,
-  "categoria": "Deportivo",
-  "stock": 7,
-  "veces_vendido": 5,
-  "veces_buscado": 20
-},
-{
-  "_id": {
-    "$oid": "68f95a28324038435f5e5c10"
+  {
+    "id_producto": 5008,
+    "nombre": "Lámpara LED de Escritorio",
+    "categoria": "Hogar",
+    "precio": 23990,
+    "cantidad": 46,
+    "veces_vendido": 16,
+    "veces_buscado": 96,
+    "fecha_creacion": "2025-01-31T10:59:49"
   },
-  "id_producto": "5008",
-  "nombre_producto": "Lámpara LED de Escritorio",
-  "precio": 23990,
-  "categoria": "Hogar",
-  "stock": 46,
-  "veces_vendido": 2,
-  "veces_buscado": 52
-},
-{
-  "_id": {
-    "$oid": "68f95a28324038435f5e5c11"
+  {
+    "id_producto": 5009,
+    "nombre": "Aspiradora Robot Samsung JetBot",
+    "categoria": "Hogar",
+    "precio": 308990,
+    "cantidad": 28,
+    "veces_vendido": 25,
+    "veces_buscado": 75,
+    "fecha_creacion": "2025-08-20T02:09:38"
   },
-  "id_producto": "5009",
-  "nombre_producto": "Aspiradora Robot Samsung JetBot",
-  "precio": 308990,
-  "categoria": "Hogar",
-  "stock": 28,
-  "veces_vendido": 41,
-  "veces_buscado": 57
-},
-{
-  "_id": {
-    "$oid": "68f95a28324038435f5e5c12"
+  {
+    "id_producto": 5010,
+    "nombre": "Juego de Sábanas 2 plazas",
+    "categoria": "Hogar",
+    "precio": 34990,
+    "cantidad": 28,
+    "veces_vendido": 18,
+    "veces_buscado": 72,
+    "fecha_creacion": "2025-11-04T07:31:17"
   },
-  "id_producto": "5010",
-  "nombre_producto": "Juego de Sábanas 2 plazas",
-  "precio": 34990,
-  "categoria": "Hogar",
-  "stock": 28,
-  "veces_vendido": 34,
-  "veces_buscado": 52
-},
-{
-  "_id": {
-    "$oid": "68f95a28324038435f5e5c13"
+  {
+    "id_producto": 5011,
+    "nombre": "Hervidor Eléctrico Hario 1.7L",
+    "categoria": "Hogar",
+    "precio": 40990,
+    "cantidad": 29,
+    "veces_vendido": 9,
+    "veces_buscado": 27,
+    "fecha_creacion": "2025-03-31T18:50:51"
   },
-  "id_producto": "5011",
-  "nombre_producto": "Hervidor Eléctrico Hario 1.7L",
-  "precio": 40990,
-  "categoria": "Hogar",
-  "stock": 29,
-  "veces_vendido": 20,
-  "veces_buscado": 72
-},
-{
-  "_id": {
-    "$oid": "68f95a28324038435f5e5c14"
+  {
+    "id_producto": 5012,
+    "nombre": "Audífonos Bluetooth Motorola Buds 3 -13",
+    "categoria": "Electrónica",
+    "precio": 36990,
+    "cantidad": 26,
+    "veces_vendido": 15,
+    "veces_buscado": 90,
+    "fecha_creacion": "2024-11-24T10:14:53"
   },
-  "id_producto": "5012",
-  "nombre_producto": "Audífonos Bluetooth Motorola Buds 3 -13",
-  "precio": 36990,
-  "categoria": "Electrónica",
-  "stock": 26,
-  "veces_vendido": 11,
-  "veces_buscado": 8
-},
-{
-  "_id": {
-    "$oid": "68f95a28324038435f5e5c15"
+  {
+    "id_producto": 5013,
+    "nombre": "Smartwatch Xiaomi Mi Band 8 -14",
+    "categoria": "Electrónica",
+    "precio": 52990,
+    "cantidad": 30,
+    "veces_vendido": 14,
+    "veces_buscado": 140,
+    "fecha_creacion": "2025-08-18T22:00:23"
   },
-  "id_producto": "5013",
-  "nombre_producto": "Smartwatch Xiaomi Mi Band 8 -14",
-  "precio": 52990,
-  "categoria": "Electrónica",
-  "stock": 30,
-  "veces_vendido": 41,
-  "veces_buscado": 17
-},
-{
-  "_id": {
-    "$oid": "68f95a28324038435f5e5c16"
+  {
+    "id_producto": 5014,
+    "nombre": "Teléfono Redmi Note 12 -15",
+    "categoria": "Electrónica",
+    "precio": 193990,
+    "cantidad": 59,
+    "veces_vendido": 27,
+    "veces_buscado": 81,
+    "fecha_creacion": "2024-12-22T12:29:50"
   },
-  "id_producto": "5014",
-  "nombre_producto": "Teléfono Redmi Note 12 -15",
-  "precio": 193990,
-  "categoria": "Electrónica",
-  "stock": 59,
-  "veces_vendido": 12,
-  "veces_buscado": 78
-},
-{
-  "_id": {
-    "$oid": "68f95a28324038435f5e5c17"
+  {
+    "id_producto": 5015,
+    "nombre": "Parlante Bluetooth JBL Flip 5 -16",
+    "categoria": "Electrónica",
+    "precio": 74990,
+    "cantidad": 46,
+    "veces_vendido": 13,
+    "veces_buscado": 130,
+    "fecha_creacion": "2024-12-04T06:56:59"
   },
-  "id_producto": "5015",
-  "nombre_producto": "Parlante Bluetooth JBL Flip 5 -16",
-  "precio": 74990,
-  "categoria": "Electrónica",
-  "stock": 46,
-  "veces_vendido": 47,
-  "veces_buscado": 10
-},
-{
-  "_id": {
-    "$oid": "68f95a28324038435f5e5c18"
+  {
+    "id_producto": 5016,
+    "nombre": "Pelota Adidas Fútbol Profesional -17",
+    "categoria": "Deportivo",
+    "precio": 35990,
+    "cantidad": 22,
+    "veces_vendido": 20,
+    "veces_buscado": 100,
+    "fecha_creacion": "2025-10-08T01:48:17"
   },
-  "id_producto": "5016",
-  "nombre_producto": "Pelota Adidas Fútbol Profesional -17",
-  "precio": 35990,
-  "categoria": "Deportivo",
-  "stock": 22,
-  "veces_vendido": 48,
-  "veces_buscado": 46
-},
-{
-  "_id": {
-    "$oid": "68f95a28324038435f5e5c19"
+  {
+    "id_producto": 5017,
+    "nombre": "Cinta de correr Reebok ZR10 -18",
+    "categoria": "Deportivo",
+    "precio": 416990,
+    "cantidad": 31,
+    "veces_vendido": 15,
+    "veces_buscado": 45,
+    "fecha_creacion": "2025-04-26T03:10:54"
   },
-  "id_producto": "5017",
-  "nombre_producto": "Cinta de correr Reebok ZR10 -18",
-  "precio": 416990,
-  "categoria": "Deportivo",
-  "stock": 31,
-  "veces_vendido": 16,
-  "veces_buscado": 14
-},
-{
-  "_id": {
-    "$oid": "68f95a28324038435f5e5c1a"
+  {
+    "id_producto": 5018,
+    "nombre": "Set Pesas 20kg -19",
+    "categoria": "Deportivo",
+    "precio": 77990,
+    "cantidad": 88,
+    "veces_vendido": 13,
+    "veces_buscado": 91,
+    "fecha_creacion": "2025-02-07T16:27:11"
   },
-  "id_producto": "5018",
-  "nombre_producto": "Set Pesas 20kg -19",
-  "precio": 77990,
-  "categoria": "Deportivo",
-  "stock": 88,
-  "veces_vendido": 12,
-  "veces_buscado": 41
-},
-{
-  "_id": {
-    "$oid": "68f95a28324038435f5e5c1b"
-  },
-  "id_producto": "5019",
-  "nombre_producto": "Zapatillas Running Nike Downshifter -20",
-  "precio": 68990,
-  "categoria": "Deportivo",
-  "stock": 49,
-  "veces_vendido": 47,
-  "veces_buscado": 53
-}]
+  {
+    "id_producto": 5019,
+    "nombre": "Zapatillas Running Nike Downshifter -20",
+    "categoria": "Deportivo",
+    "precio": 68990,
+    "cantidad": 49,
+    "veces_vendido": 24,
+    "veces_buscado": 216,
+    "fecha_creacion": "2025-06-08T17:23:57"
+  }
+]

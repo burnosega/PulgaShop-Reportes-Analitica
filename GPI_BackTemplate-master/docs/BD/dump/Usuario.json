@@ -1,360 +1,142 @@
-[{
-  "_id": {
-    "$oid": "68f959e1324038435f5e5bb3"
+[
+  {
+    "id_usuario": 1,
+    "nombre": "Juan",
+    "apellido": "Soto",
+    "nombre_usuario": "juanperez",
+    "id_rol": "administrador"
   },
-  "nombre_completo": "Juan Pérez Soto",
-  "rut": "17.543.222-9",
-  "pais": "Chile",
-  "region": "Valparaíso",
-  "ciudad": "Viña del Mar",
-  "correo": "juan.perez@correo.cl",
-  "codigo_rol": "admin",
-  "fecha_creacion": {
-    "$date": "2025-10-22T10:00:00.000Z"
+  {
+    "id_usuario": 2,
+    "nombre": "María",
+    "apellido": "Rivas",
+    "nombre_usuario": "mariagonzalez",
+    "id_rol": "administrador"
   },
-  "id_usuario": {
-    "$numberLong": "1"
+  {
+    "id_usuario": 3,
+    "nombre": "Carlos",
+    "apellido": "Díaz",
+    "nombre_usuario": "carlosmunoz",
+    "id_rol": "administrador"
+  },
+  {
+    "id_usuario": 4,
+    "nombre": "Fernanda",
+    "apellido": "Rojas",
+    "nombre_usuario": "fernandarojas",
+    "id_rol": "administrador"
+  },
+  {
+    "id_usuario": 5,
+    "nombre": "Pedro",
+    "apellido": "Salinas",
+    "nombre_usuario": "pedrosalinas",
+    "id_rol": "administrador"
+  },
+  {
+    "id_usuario": 6,
+    "nombre": "Camila",
+    "apellido": "Navarro",
+    "nombre_usuario": "camilanavarro",
+    "id_rol": "cliente"
+  },
+  {
+    "id_usuario": 7,
+    "nombre": "Felipe",
+    "apellido": "Vargas",
+    "nombre_usuario": "felipevargas",
+    "id_rol": "cliente"
+  },
+  {
+    "id_usuario": 8,
+    "nombre": "Daniela",
+    "apellido": "Reyes",
+    "nombre_usuario": "danielareyes",
+    "id_rol": "cliente"
+  },
+  {
+    "id_usuario": 9,
+    "nombre": "Ricardo",
+    "apellido": "Contreras",
+    "nombre_usuario": "ricardocontreras",
+    "id_rol": "cliente"
+  },
+  {
+    "id_usuario": 10,
+    "nombre": "Sofía",
+    "apellido": "Herrera",
+    "nombre_usuario": "sofiaherrera",
+    "id_rol": "cliente"
+  },
+  {
+    "id_usuario": 11,
+    "nombre": "Tomás",
+    "apellido": "Silva",
+    "nombre_usuario": "tomassilva",
+    "id_rol": "moderador"
+  },
+  {
+    "id_usuario": 12,
+    "nombre": "Antonia",
+    "apellido": "Espinoza",
+    "nombre_usuario": "antoniaespinoza",
+    "id_rol": "moderador"
+  },
+  {
+    "id_usuario": 13,
+    "nombre": "Luis",
+    "apellido": "Cifuentes",
+    "nombre_usuario": "luiscifuentes",
+    "id_rol": "moderador"
+  },
+  {
+    "id_usuario": 14,
+    "nombre": "Valentina",
+    "apellido": "Soto",
+    "nombre_usuario": "valentinasoto",
+    "id_rol": "moderador"
+  },
+  {
+    "id_usuario": 15,
+    "nombre": "Diego",
+    "apellido": "Carrasco",
+    "nombre_usuario": "diegocarrasco",
+    "id_rol": "moderador"
+  },
+  {
+    "id_usuario": 16,
+    "nombre": "Javiera",
+    "apellido": "Fuentes",
+    "nombre_usuario": "javierafuentes",
+    "id_rol": "vendedor"
+  },
+  {
+    "id_usuario": 17,
+    "nombre": "Ignacio",
+    "apellido": "Rojas",
+    "nombre_usuario": "ignaciorojas",
+    "id_rol": "vendedor"
+  },
+  {
+    "id_usuario": 18,
+    "nombre": "Francisca",
+    "apellido": "Leiva",
+    "nombre_usuario": "franciscaleiva",
+    "id_rol": "vendedor"
+  },
+  {
+    "id_usuario": 19,
+    "nombre": "Sebastián",
+    "apellido": "Bravo",
+    "nombre_usuario": "sebastianbravo",
+    "id_rol": "vendedor"
+  },
+  {
+    "id_usuario": 20,
+    "nombre": "Carolina",
+    "apellido": "Vega",
+    "nombre_usuario": "carolinavega",
+    "id_rol": "vendedor"
   }
-},
-{
-  "_id": {
-    "$oid": "68f959e1324038435f5e5bb4"
-  },
-  "nombre_completo": "María González Rivas",
-  "rut": "18.321.654-2",
-  "pais": "Chile",
-  "region": "Metropolitana",
-  "ciudad": "Santiago",
-  "correo": "maria.gonzalez@correo.cl",
-  "codigo_rol": "admin",
-  "fecha_creacion": {
-    "$date": "2025-10-22T09:00:00.000Z"
-  },
-  "id_usuario": {
-    "$numberLong": "2"
-  }
-},
-{
-  "_id": {
-    "$oid": "68f959e1324038435f5e5bb5"
-  },
-  "nombre_completo": "Carlos Muñoz Díaz",
-  "rut": "16.908.223-4",
-  "pais": "Chile",
-  "region": "Biobío",
-  "ciudad": "Concepción",
-  "correo": "carlos.munoz@correo.cl",
-  "codigo_rol": "analista",
-  "fecha_creacion": {
-    "$date": "2025-10-22T08:00:00.000Z"
-  },
-  "id_usuario": {
-    "$numberLong": "3"
-  }
-},
-{
-  "_id": {
-    "$oid": "68f959e1324038435f5e5bb6"
-  },
-  "nombre_completo": "Fernanda Rojas",
-  "rut": "19.555.778-3",
-  "pais": "Chile",
-  "region": "Metropolitana",
-  "ciudad": "Puente Alto",
-  "correo": "fernanda.rojas@correo.cl",
-  "codigo_rol": "analista",
-  "fecha_creacion": {
-    "$date": "2025-10-22T07:00:00.000Z"
-  },
-  "id_usuario": {
-    "$numberLong": "4"
-  }
-},
-{
-  "_id": {
-    "$oid": "68f959e1324038435f5e5bb7"
-  },
-  "nombre_completo": "Pedro Salinas",
-  "rut": "15.443.890-6",
-  "pais": "Chile",
-  "region": "Los Lagos",
-  "ciudad": "Puerto Montt",
-  "correo": "pedro.salinas@correo.cl",
-  "codigo_rol": "analista",
-  "fecha_creacion": {
-    "$date": "2025-10-22T06:00:00.000Z"
-  },
-  "id_usuario": {
-    "$numberLong": "5"
-  }
-},
-{
-  "_id": {
-    "$oid": "68f959e1324038435f5e5bb8"
-  },
-  "nombre_completo": "Camila Navarro",
-  "rut": "17.876.543-1",
-  "pais": "Chile",
-  "region": "Metropolitana",
-  "ciudad": "Las Condes",
-  "correo": "camila.navarro@correo.cl",
-  "codigo_rol": "analista",
-  "fecha_creacion": {
-    "$date": "2025-10-21T11:00:00.000Z"
-  },
-  "id_usuario": {
-    "$numberLong": "6"
-  }
-},
-{
-  "_id": {
-    "$oid": "68f959e1324038435f5e5bb9"
-  },
-  "nombre_completo": "Felipe Vargas",
-  "rut": "18.111.789-0",
-  "pais": "Chile",
-  "region": "Metropolitana",
-  "ciudad": "Maipú",
-  "correo": "felipe.vargas@correo.cl",
-  "codigo_rol": "cliente",
-  "fecha_creacion": {
-    "$date": "2025-10-21T10:00:00.000Z"
-  },
-  "id_usuario": {
-    "$numberLong": "7"
-  }
-},
-{
-  "_id": {
-    "$oid": "68f959e1324038435f5e5bba"
-  },
-  "nombre_completo": "Daniela Reyes",
-  "rut": "17.777.666-5",
-  "pais": "Chile",
-  "region": "Valparaíso",
-  "ciudad": "Quilpué",
-  "correo": "daniela.reyes@correo.cl",
-  "codigo_rol": "cliente",
-  "fecha_creacion": {
-    "$date": "2025-10-21T09:00:00.000Z"
-  },
-  "id_usuario": {
-    "$numberLong": "8"
-  }
-},
-{
-  "_id": {
-    "$oid": "68f959e1324038435f5e5bbb"
-  },
-  "nombre_completo": "Ricardo Contreras",
-  "rut": "18.989.333-1",
-  "pais": "Chile",
-  "region": "Metropolitana",
-  "ciudad": "Santiago Centro",
-  "correo": "ricardo.contreras@correo.cl",
-  "codigo_rol": "cliente",
-  "fecha_creacion": {
-    "$date": "2025-10-21T08:00:00.000Z"
-  },
-  "id_usuario": {
-    "$numberLong": "9"
-  }
-},
-{
-  "_id": {
-    "$oid": "68f959e1324038435f5e5bbc"
-  },
-  "nombre_completo": "Sofía Herrera",
-  "rut": "19.222.111-8",
-  "pais": "Chile",
-  "region": "Atacama",
-  "ciudad": "Copiapó",
-  "correo": "sofia.herrera@correo.cl",
-  "codigo_rol": "cliente",
-  "fecha_creacion": {
-    "$date": "2025-10-21T07:00:00.000Z"
-  },
-  "id_usuario": {
-    "$numberLong": "10"
-  }
-},
-{
-  "_id": {
-    "$oid": "68f959e1324038435f5e5bbd"
-  },
-  "nombre_completo": "Tomás Silva",
-  "rut": "18.564.342-5",
-  "pais": "Chile",
-  "region": "Metropolitana",
-  "ciudad": "Providencia",
-  "correo": "tomas.silva@correo.cl",
-  "codigo_rol": "cliente",
-  "fecha_creacion": {
-    "$date": "2025-10-20T12:00:00.000Z"
-  },
-  "id_usuario": {
-    "$numberLong": "11"
-  }
-},
-{
-  "_id": {
-    "$oid": "68f959e1324038435f5e5bbe"
-  },
-  "nombre_completo": "Antonia Espinoza",
-  "rut": "17.345.123-7",
-  "pais": "Chile",
-  "region": "Antofagasta",
-  "ciudad": "Antofagasta",
-  "correo": "antonia.espinoza@correo.cl",
-  "codigo_rol": "cliente",
-  "fecha_creacion": {
-    "$date": "2025-10-20T11:00:00.000Z"
-  },
-  "id_usuario": {
-    "$numberLong": "12"
-  }
-},
-{
-  "_id": {
-    "$oid": "68f959e1324038435f5e5bbf"
-  },
-  "nombre_completo": "Luis Cifuentes",
-  "rut": "16.765.453-0",
-  "pais": "Chile",
-  "region": "Metropolitana",
-  "ciudad": "Ñuñoa",
-  "correo": "luis.cifuentes@correo.cl",
-  "codigo_rol": "cliente",
-  "fecha_creacion": {
-    "$date": "2025-10-20T10:00:00.000Z"
-  },
-  "id_usuario": {
-    "$numberLong": "13"
-  }
-},
-{
-  "_id": {
-    "$oid": "68f959e1324038435f5e5bc0"
-  },
-  "nombre_completo": "Valentina Soto",
-  "rut": "17.889.562-3",
-  "pais": "Chile",
-  "region": "O'Higgins",
-  "ciudad": "Rancagua",
-  "correo": "valentina.soto@correo.cl",
-  "codigo_rol": "cliente",
-  "fecha_creacion": {
-    "$date": "2025-10-20T09:00:00.000Z"
-  },
-  "id_usuario": {
-    "$numberLong": "14"
-  }
-},
-{
-  "_id": {
-    "$oid": "68f959e1324038435f5e5bc1"
-  },
-  "nombre_completo": "Diego Carrasco",
-  "rut": "18.124.908-9",
-  "pais": "Chile",
-  "region": "Metropolitana",
-  "ciudad": "San Bernardo",
-  "correo": "diego.carrasco@correo.cl",
-  "codigo_rol": "cliente",
-  "fecha_creacion": {
-    "$date": "2025-10-20T08:00:00.000Z"
-  },
-  "id_usuario": {
-    "$numberLong": "15"
-  }
-},
-{
-  "_id": {
-    "$oid": "68f959e1324038435f5e5bc2"
-  },
-  "nombre_completo": "Javiera Fuentes",
-  "rut": "18.675.001-2",
-  "pais": "Chile",
-  "region": "Araucanía",
-  "ciudad": "Temuco",
-  "correo": "javiera.fuentes@correo.cl",
-  "codigo_rol": "cliente",
-  "fecha_creacion": {
-    "$date": "2025-10-19T12:00:00.000Z"
-  },
-  "id_usuario": {
-    "$numberLong": "16"
-  }
-},
-{
-  "_id": {
-    "$oid": "68f959e1324038435f5e5bc3"
-  },
-  "nombre_completo": "Ignacio Rojas",
-  "rut": "19.007.654-1",
-  "pais": "Chile",
-  "region": "Metropolitana",
-  "ciudad": "Huechuraba",
-  "correo": "ignacio.rojas@correo.cl",
-  "codigo_rol": "cliente",
-  "fecha_creacion": {
-    "$date": "2025-10-19T11:00:00.000Z"
-  },
-  "id_usuario": {
-    "$numberLong": "17"
-  }
-},
-{
-  "_id": {
-    "$oid": "68f959e1324038435f5e5bc4"
-  },
-  "nombre_completo": "Francisca Leiva",
-  "rut": "17.666.442-2",
-  "pais": "Chile",
-  "region": "Maule",
-  "ciudad": "Talca",
-  "correo": "francisca.leiva@correo.cl",
-  "codigo_rol": "cliente",
-  "fecha_creacion": {
-    "$date": "2025-10-19T10:00:00.000Z"
-  },
-  "id_usuario": {
-    "$numberLong": "18"
-  }
-},
-{
-  "_id": {
-    "$oid": "68f959e1324038435f5e5bc5"
-  },
-  "nombre_completo": "Sebastián Bravo",
-  "rut": "16.234.988-4",
-  "pais": "Chile",
-  "region": "Metropolitana",
-  "ciudad": "La Florida",
-  "correo": "sebastian.bravo@correo.cl",
-  "codigo_rol": "cliente",
-  "fecha_creacion": {
-    "$date": "2025-10-19T09:00:00.000Z"
-  },
-  "id_usuario": {
-    "$numberLong": "19"
-  }
-},
-{
-  "_id": {
-    "$oid": "68f959e1324038435f5e5bc6"
-  },
-  "nombre_completo": "Carolina Vega",
-  "rut": "19.654.345-6",
-  "pais": "Chile",
-  "region": "Valparaíso",
-  "ciudad": "Villa Alemana",
-  "correo": "carolina.vega@correo.cl",
-  "codigo_rol": "cliente",
-  "fecha_creacion": {
-    "$date": "2025-10-19T08:00:00.000Z"
-  },
-  "id_usuario": {
-    "$numberLong": "20"
-  }
-}]
+]
