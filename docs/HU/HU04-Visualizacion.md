@@ -22,20 +22,18 @@
 ---
 
 ## Definition of Done
-- [ ] Existe un endpoint `/api/analytics/ventas` que entrega datos agregados (totales, tendencias, por región).
-- [ ] El frontend muestra gráficos y tablas correctamente renderizados en el dashboard de analíticas.
-- [ ] Los datos se actualizan con un desfase no mayor a 5 minutos respecto a la base de datos.
-- [ ] Se incluye un gráfico o tabla de tendencias de ventas/envíos agrupadas por región.
-- [ ] Se implementaron pruebas unitarias del endpoint y pruebas de integración con el frontend.
-- [ ] La vista es responsiva y visualmente clara (validado en escritorio y móvil).
+-Existe un endpoint `/api/analytics/ventas` que entrega datos agregados (totales, tendencias, por región).
+-El frontend muestra gráficos y tablas correctamente renderizados en el dashboard de analíticas.
+-Los datos se actualizan con un desfase no mayor a 5 minutos respecto a la base de datos.
+-Se incluye un gráfico o tabla de tendencias de ventas/envíos agrupadas por región.
+-Se implementaron pruebas unitarias del endpoint y pruebas de integración con el frontend.
+-La vista es responsiva y visualmente clara.
 
 
 ---
 
 **Política de seguridad / Autorización**
-- Solo gerentes de ventas o roles autorizados pueden acceder al dashboard.  
-- Los gráficos y tablas muestran únicamente datos que el rol tiene derecho a consultar.  
-- Intentos de acceso no autorizados se registran en logs de seguridad.
+- Solo administradores pueden ver la pagina   
 
 ---
 
